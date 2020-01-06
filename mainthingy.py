@@ -52,6 +52,8 @@ def tech ():
 def physics():
     -fall asleep
         -you black out 2 minutes into class 
+        -wake up w 2 minutes until math starts. you want death.
+    -wake up
     -take notes
         -slow class
         -you feel prepared bc you actually know whats going on
@@ -60,6 +62,7 @@ def physics():
         -class goes by quickly, you think about practice and ypur plans
 
 def math():
+    -if you took a nap in physics
 
 def dinner():
 
