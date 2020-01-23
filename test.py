@@ -54,16 +54,16 @@ if tresult == tchoice1 or tchoice2:
     print("Co passes quickly, but it always does. Nothing special happens. You walk to phsyics with your friends and prepare yourself emotionally.")
 
 #physics
-print ("Do you: ")
-physics_options = ["   1: ",
-"   2: ",
-"   3: "]
+print ("You sit down in physics. Today you're mostly doing review problems, which you don't really want to do. Do you: ")
+physics_options = ["   1: Suck it up and do the problems. Sure, you know how to do them by now, but it's good to have the practice",
+"   2: Zone out. You can kinda listen so it's like you're paying attention, but you don't have to be too bored for 83 minutes.",
+"   3: Take a nap. That's always a good idea"]
 for choice in physics_options:
     print(choice)
-user_choice_p = int(input("So what's it gonna be? 1, 2, or 3?"))
-pchoice1 = ""
-pchoice2 = ""
-pchoice3 = ""
+user_choice_p = int(input("What's the plan? 1, 2, or 3?"))
+pchoice1 = "Like a good student, you do the problems. Yeah, you'd rather be sleeping, but you'll pass the test."
+pchoice2 = "The period drags on, but it's better than doing the problems I guess? You wind up half asleep by the end of the period."
+pchoice3 = "Bruh. Naps are bad for you. You can't keep taking naps. You hate naps. Stop."
 if user_choice_p == 1:
     presult = pchoice1
     print (presult)
@@ -75,22 +75,77 @@ if user_choice_p == 3:
     print (presult)
 
 #math
-print ("Do you: ")
-math_options = ["   1: ",
-"   2: ",
-"   3: "]
-for choice in math_options:
+print ("Math time! You like math, so you know this period is gonna be fine.")
+mopt1 = "You're still in a productive mood from physics so you take good notes. It's the last period of the day, and it's a good end to it."
+mopt2 = "You're a little drowsy, but it's hard to be in a bad mood with Mrs. Draesel teaching, let's be honest. You end up being productive."
+mopt3 = "Or at least it would be if you hadn't taken this nap. You're still tired from your nap. Why do you ever nap? Please. Stop. You're exhausted."
+if user_choice_p == 1:
+    mresult = mopt1
+    print (mresult)
+if user_choice_p == 2:
+    mresult = mopt2
+    print (mresult)
+if user_choice_p == 3:
+    mresult = mopt3
+    print (mresult)
+
+#dinner
+print ("You've made it home! You have a lot of homework to do because you're a magnet student, but you have three hour practice tonight. Do you: ")
+dinner_options = ["   1: Eat dinner. Sure, you have homework, but it's a bad idea to not eat. You can do the work later.",
+"   2: Grab a protein bar and do the work. You'll be a little hungry during practice, but you'll live.",
+"   3: Ignore dinner you don't need food. Live love magnet."]
+for choice in dinner_options:
     print(choice)
-user_choice_m = int(input("So what's it gonna be? 1, 2, or 3?"))
-mchoice1 = ""
-mchoice2 = ""
-mchoice3 = ""
-if user_choice_m == 1:
-    mresult = mchoice1
-    print (mresult)
-if user_choice_m == 2:
-    mresult = mchoice2
-    print (mresult)
-if user_choice_m == 3:
-    mresult = mchoice3
-    print (mresult
+user_choice_d = int(input("So what's it gonna be? 1, 2, or 3?"))
+dchoice1 = "You eat dinner so you're ready for practice. You manage to get some of the work done too, so later you'll be on the right track."
+dchoice2 = "You grab a protein bar and get to work. You don't finish, but you'll have enough time later."
+dchoice3 = "You grind for a bit and get work done. You're hungry, though."
+if user_choice_d == 1:
+    dresult = dchoice1
+    print (dresult)
+if user_choice_d == 2:
+    dresult = dchoice2
+    print (dresult)
+if user_choice_d == 3:
+    dresult = dchoice3
+    print (dresult)
+
+#rehearsal
+print ("You make it to practice, excited to get work done. This is your favorite part of the day :).")
+rchoice1 = "You get to learn more of your show. The work you get is fun, and you're excited to see how the final product is."
+rchoice2 = "So turns out a granola bar isn't enough dinner. During basics you get dizzy and have to sit down. A friend had food, so you eat some and get back to normal. You're still kinda out of it for the rest of the practice."
+rchoice3 = "You messed up. During basics, you pass out. Eat dinner next time, man."
+if user_choice_d == 1:
+    rresult = rchoice1
+    print (rresult)
+if user_choice_d == 2:
+    rresult = rchoice2
+    print (rresult)
+if user_choice_d == 3:
+    rresult = rchoice3
+    print (rresult)
+
+#bedtime
+print ("You've had quite the day. When you get home, you finish up the rest of your homework. You're tired now. Do you: ")
+bed_options = ["   1: Go to bed before 10pm. You have to wake up early tomorrow.",
+"   2: Stay up late watching Netflix. You'll still go to bed before midnight, though",
+"   3: Stay up until 2am. You'll wake up and it'll all be fine nothing matters."]
+for choice in bed_options:
+    print(choice)
+user_choice_b = int(input("So what's it gonna be? 1, 2, or 3?"))
+bchoice1 = "Good for you, getting to bed. You get a good night's sleep and you'll wake up well rested."
+bchoice2 = "You watch a few episodes before you force yourself to go to bed. You'll get less sleep than you need, but it's fine."
+bchoice3 = "Why would you do this to yourself? You definitely don't get enough sleep. Be better."
+if user_choice_b == 1:
+    bresult = bchoice1
+    print (bresult)
+if user_choice_b == 2:
+    bresult = bchoice2
+    print (bresult)
+if user_choice_b == 3:
+    bresult = bchoice3
+    print (bresult)
+
+
+
+
